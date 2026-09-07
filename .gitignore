@@ -1,0 +1,16 @@
+# données et sorties : trop lourdes pour GitHub, trop lourdes pour la vie
+data/
+output/
+Rplots.pdf
+
+# fichiers de travail R
+*.RData
+.Rhistory
+.Rproj.user/
+
+# secrets : ne jamais versionner, jamais, même pour rire
+.Renviron
+.env
+
+# archéologie
+analyse_v2_corrige_FINAL_vraiment.R

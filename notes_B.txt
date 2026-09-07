@@ -1,0 +1,18 @@
+Notes de B (Pierre)
+
+Jour 1 du TP Git. Clément a créé le dépôt. Il a mis un README de deux lignes.
+Deux lignes. Le mot "TP" et le mot "git". Je ne dis rien, je pull.
+
+Choses apprises aujourd'hui :
+- git status, toujours. Même quand ça va bien. Surtout quand ça va bien.
+- "LF will be replaced by CRLF" n'est pas une menace, c'est juste Windows qui dit bonjour.
+- Si Vim s'ouvre : :wq puis Entrée. Si ça ne marche pas : redémarrer l'ordinateur.
+- "! [rejected] (fetch first)" veut dire que Clément a poussé avant moi. Encore.
+- git blame ne sert pas à trouver un coupable. (Il sert à trouver un coupable.)
+
+Résolution de conflit, méthode Pierre :
+<<<<<<< HEAD
+ma version, forcément la bonne
+=======
+la version de Clément
+>>>>>>> on garde la mienne, mais avec beaucoup de diplomatie
